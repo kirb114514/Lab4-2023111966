@@ -14,7 +14,7 @@ public class L2023111966_3_Test {
 
         // 输入：{1, 2, 3}
         int[] input1 = {1, 2, 3};
-        List<Integer> expected1 = List.of(1, 2, 4); // 最大整除子集是 [1, 2]//故意修改为错的
+        List<Integer> expected1 = List.of(1, 2, 3); // 最大整除子集是 [1, 2]//故意修改为错的
         assertEquals(expected1, solution.largestDivisibleSubset(input1));
 
         // 输入：{1, 2, 4, 8}
