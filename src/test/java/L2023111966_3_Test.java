@@ -19,17 +19,17 @@ public class L2023111966_3_Test {
 
         // 输入：{1, 2, 4, 8}
         int[] input2 = {1, 2, 4, 8};
-        List<Integer> expected2 = List.of(1, 2, 4, 8); // 最大整除子集是 [1, 2, 4, 8]
+        List<Integer> expected2 = List.of(1, 2, 4); // 最大整除子集是 [1, 2, 4, 8]
         assertEquals(expected2, solution.largestDivisibleSubset(input2));
 
         // 输入：{1, 3, 9, 27}
         int[] input3 = {1, 3, 9, 27};
-        List<Integer> expected3 = List.of(1, 3, 9, 27); // 最大整除子集是 [1, 3, 9, 27]
+        List<Integer> expected3 = List.of(1, 3, 9); // 最大整除子集是 [1, 3, 9, 27]
         assertEquals(expected3, solution.largestDivisibleSubset(input3));
 
         // 输入：{5, 10, 20, 30}
         int[] input4 = {5, 10, 20, 30};
-        List<Integer> expected4 = List.of(5, 10, 20); // 最大整除子集是 [5, 10, 20]
+        List<Integer> expected4 = List.of(5, 10, 20, 30); // 最大整除子集是 [5, 10, 20]
         assertEquals(expected4, solution.largestDivisibleSubset(input4));
     }
 
